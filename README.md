@@ -38,10 +38,10 @@ This is a diagram branching strategy
 <img src="Capture.png">
 
 ## Simulate delivery plan
-    - Creating a new branch called the "developer" branch to develop features. When we want to add new features, we will create branches with the corresponding feature. 
+    Creating a new branch called the "developer" branch to develop features. When we want to add new features, we will create branches with the corresponding feature. 
 
-    - When a feature is completed, the developer will create a pull request for reviewers reviewer. The reviewers will check, approve, and comment on the developer's code. When the code is approved, they have permission to merge into the developer branch. 
+    When a feature is completed, the developer will create a pull request for reviewers reviewer. The reviewers will check, approve, and comment on the developer's code. When the code is approved, they have permission to merge into the developer branch. 
 
-    - Next, the releases branch will be created on the developer branch to update version and check errors, then create a pull request and it will be merged into the main branch (it's will be tagged for the new version) and back to develop branch to continue by the project manager if reviewers approve.
+    Next, the releases branch will be created on the developer branch to update version and check errors, then create a pull request and it will be merged into the main branch (it's will be tagged for the new version) and back to develop branch to continue by the project manager if reviewers approve.
 
-    - In case of a version error, We detach it into the hotfix branch to fix the error and merge back the main branch and developer branch to continue to develop another feature (we have to create a pull request and wait for the reviewers' approval before we merge).
+    In case of a version error, We detach it into the hotfix branch to fix the error and merge back the main branch and developer branch to continue to develop another feature (we have to create a pull request and wait for the reviewers' approval before we merge).
